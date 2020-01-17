@@ -22,15 +22,15 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
-        Me.Button8 = New System.Windows.Forms.Button()
-        Me.Button9 = New System.Windows.Forms.Button()
+        Me.Seven = New System.Windows.Forms.Button()
+        Me.Eight = New System.Windows.Forms.Button()
+        Me.Nine = New System.Windows.Forms.Button()
+        Me.Six = New System.Windows.Forms.Button()
+        Me.Five = New System.Windows.Forms.Button()
+        Me.Four = New System.Windows.Forms.Button()
+        Me.Three = New System.Windows.Forms.Button()
+        Me.Two = New System.Windows.Forms.Button()
+        Me.One = New System.Windows.Forms.Button()
         Me.Button11 = New System.Windows.Forms.Button()
         Me.Button12 = New System.Windows.Forms.Button()
         Me.Button16 = New System.Windows.Forms.Button()
@@ -41,7 +41,7 @@ Partial Class Form1
         Me.Button17 = New System.Windows.Forms.Button()
         Me.Button18 = New System.Windows.Forms.Button()
         Me.Button19 = New System.Windows.Forms.Button()
-        Me.Button20 = New System.Windows.Forms.Button()
+        Me.AC = New System.Windows.Forms.Button()
         Me.Button23 = New System.Windows.Forms.Button()
         Me.Button21 = New System.Windows.Forms.Button()
         Me.Button22 = New System.Windows.Forms.Button()
@@ -56,104 +56,104 @@ Partial Class Form1
         Me.Button32 = New System.Windows.Forms.Button()
         Me.Button33 = New System.Windows.Forms.Button()
         Me.Button34 = New System.Windows.Forms.Button()
-        Me.Button35 = New System.Windows.Forms.Button()
+        Me.exponent = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Expression_txtbx = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.SuspendLayout()
         '
-        'Button1
+        'Seven
         '
-        Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button1.Location = New System.Drawing.Point(30, 380)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(66, 45)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "7"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Seven.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Seven.Location = New System.Drawing.Point(30, 380)
+        Me.Seven.Name = "Seven"
+        Me.Seven.Size = New System.Drawing.Size(66, 45)
+        Me.Seven.TabIndex = 0
+        Me.Seven.Text = "7"
+        Me.Seven.UseVisualStyleBackColor = True
         '
-        'Button2
+        'Eight
         '
-        Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button2.Location = New System.Drawing.Point(113, 380)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(66, 45)
-        Me.Button2.TabIndex = 1
-        Me.Button2.Text = "8"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Eight.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Eight.Location = New System.Drawing.Point(113, 380)
+        Me.Eight.Name = "Eight"
+        Me.Eight.Size = New System.Drawing.Size(66, 45)
+        Me.Eight.TabIndex = 1
+        Me.Eight.Text = "8"
+        Me.Eight.UseVisualStyleBackColor = True
         '
-        'Button3
+        'Nine
         '
-        Me.Button3.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button3.Location = New System.Drawing.Point(197, 380)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(66, 45)
-        Me.Button3.TabIndex = 2
-        Me.Button3.Text = "9"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.Nine.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Nine.Location = New System.Drawing.Point(197, 380)
+        Me.Nine.Name = "Nine"
+        Me.Nine.Size = New System.Drawing.Size(66, 45)
+        Me.Nine.TabIndex = 2
+        Me.Nine.Text = "9"
+        Me.Nine.UseVisualStyleBackColor = True
         '
-        'Button4
+        'Six
         '
-        Me.Button4.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button4.Location = New System.Drawing.Point(197, 431)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(66, 45)
-        Me.Button4.TabIndex = 5
-        Me.Button4.Text = "6"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.Six.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Six.Location = New System.Drawing.Point(197, 431)
+        Me.Six.Name = "Six"
+        Me.Six.Size = New System.Drawing.Size(66, 45)
+        Me.Six.TabIndex = 5
+        Me.Six.Text = "6"
+        Me.Six.UseVisualStyleBackColor = True
         '
-        'Button5
+        'Five
         '
-        Me.Button5.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button5.Location = New System.Drawing.Point(113, 431)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(66, 45)
-        Me.Button5.TabIndex = 4
-        Me.Button5.Text = "5"
-        Me.Button5.UseVisualStyleBackColor = True
+        Me.Five.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Five.Location = New System.Drawing.Point(113, 431)
+        Me.Five.Name = "Five"
+        Me.Five.Size = New System.Drawing.Size(66, 45)
+        Me.Five.TabIndex = 4
+        Me.Five.Text = "5"
+        Me.Five.UseVisualStyleBackColor = True
         '
-        'Button6
+        'Four
         '
-        Me.Button6.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button6.Location = New System.Drawing.Point(30, 431)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(66, 45)
-        Me.Button6.TabIndex = 3
-        Me.Button6.Text = "4"
-        Me.Button6.UseVisualStyleBackColor = True
+        Me.Four.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Four.Location = New System.Drawing.Point(30, 431)
+        Me.Four.Name = "Four"
+        Me.Four.Size = New System.Drawing.Size(66, 45)
+        Me.Four.TabIndex = 3
+        Me.Four.Text = "4"
+        Me.Four.UseVisualStyleBackColor = True
         '
-        'Button7
+        'Three
         '
-        Me.Button7.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button7.Location = New System.Drawing.Point(197, 482)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(66, 45)
-        Me.Button7.TabIndex = 8
-        Me.Button7.Text = "3"
-        Me.Button7.UseVisualStyleBackColor = True
+        Me.Three.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Three.Location = New System.Drawing.Point(197, 482)
+        Me.Three.Name = "Three"
+        Me.Three.Size = New System.Drawing.Size(66, 45)
+        Me.Three.TabIndex = 8
+        Me.Three.Text = "3"
+        Me.Three.UseVisualStyleBackColor = True
         '
-        'Button8
+        'Two
         '
-        Me.Button8.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button8.Location = New System.Drawing.Point(113, 482)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(66, 45)
-        Me.Button8.TabIndex = 7
-        Me.Button8.Text = "2"
-        Me.Button8.UseVisualStyleBackColor = True
+        Me.Two.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Two.Location = New System.Drawing.Point(113, 482)
+        Me.Two.Name = "Two"
+        Me.Two.Size = New System.Drawing.Size(66, 45)
+        Me.Two.TabIndex = 7
+        Me.Two.Text = "2"
+        Me.Two.UseVisualStyleBackColor = True
         '
-        'Button9
+        'One
         '
-        Me.Button9.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button9.Location = New System.Drawing.Point(30, 482)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(66, 45)
-        Me.Button9.TabIndex = 6
-        Me.Button9.Text = "1"
-        Me.Button9.UseVisualStyleBackColor = True
+        Me.One.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.One.Location = New System.Drawing.Point(30, 482)
+        Me.One.Name = "One"
+        Me.One.Size = New System.Drawing.Size(66, 45)
+        Me.One.TabIndex = 6
+        Me.One.Text = "1"
+        Me.One.UseVisualStyleBackColor = True
         '
         'Button11
         '
@@ -280,20 +280,20 @@ Partial Class Form1
         Me.Button19.Text = "←"
         Me.Button19.UseVisualStyleBackColor = False
         '
-        'Button20
+        'AC
         '
-        Me.Button20.BackColor = System.Drawing.Color.PowderBlue
-        Me.Button20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button20.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button20.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button20.ForeColor = System.Drawing.Color.DodgerBlue
-        Me.Button20.Location = New System.Drawing.Point(366, 380)
-        Me.Button20.Name = "Button20"
-        Me.Button20.Size = New System.Drawing.Size(66, 45)
-        Me.Button20.TabIndex = 19
-        Me.Button20.Text = "AC"
-        Me.Button20.UseVisualStyleBackColor = False
+        Me.AC.BackColor = System.Drawing.Color.PowderBlue
+        Me.AC.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.AC.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.AC.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.AC.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AC.ForeColor = System.Drawing.Color.DodgerBlue
+        Me.AC.Location = New System.Drawing.Point(366, 380)
+        Me.AC.Name = "AC"
+        Me.AC.Size = New System.Drawing.Size(66, 45)
+        Me.AC.TabIndex = 19
+        Me.AC.Text = "AC"
+        Me.AC.UseVisualStyleBackColor = False
         '
         'Button23
         '
@@ -391,7 +391,7 @@ Partial Class Form1
         Me.Button29.Name = "Button29"
         Me.Button29.Size = New System.Drawing.Size(66, 45)
         Me.Button29.TabIndex = 29
-        Me.Button29.Text = "x³"
+        Me.Button29.Text = "s"
         Me.Button29.UseVisualStyleBackColor = True
         '
         'Button30
@@ -449,16 +449,16 @@ Partial Class Form1
         Me.Button34.Text = "√"
         Me.Button34.UseVisualStyleBackColor = True
         '
-        'Button35
+        'exponent
         '
-        Me.Button35.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button35.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button35.Location = New System.Drawing.Point(30, 196)
-        Me.Button35.Name = "Button35"
-        Me.Button35.Size = New System.Drawing.Size(66, 45)
-        Me.Button35.TabIndex = 31
-        Me.Button35.Text = "x!"
-        Me.Button35.UseVisualStyleBackColor = True
+        Me.exponent.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.exponent.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.exponent.Location = New System.Drawing.Point(30, 196)
+        Me.exponent.Name = "exponent"
+        Me.exponent.Size = New System.Drawing.Size(66, 45)
+        Me.exponent.TabIndex = 31
+        Me.exponent.Text = "x!"
+        Me.exponent.UseVisualStyleBackColor = True
         '
         'TextBox1
         '
@@ -468,13 +468,15 @@ Partial Class Form1
         Me.TextBox1.Size = New System.Drawing.Size(400, 34)
         Me.TextBox1.TabIndex = 36
         '
-        'TextBox2
+        'Expression_txtbx
         '
-        Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 19.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(30, 46)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(402, 45)
-        Me.TextBox2.TabIndex = 38
+        Me.Expression_txtbx.Font = New System.Drawing.Font("Microsoft Sans Serif", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Expression_txtbx.Location = New System.Drawing.Point(30, 46)
+        Me.Expression_txtbx.Name = "Expression_txtbx"
+        Me.Expression_txtbx.Size = New System.Drawing.Size(402, 34)
+        Me.Expression_txtbx.TabIndex = 38
+        Me.Expression_txtbx.Text = "0"
+        Me.Expression_txtbx.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'Label1
         '
@@ -519,13 +521,13 @@ Partial Class Form1
         Me.ClientSize = New System.Drawing.Size(458, 622)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.Expression_txtbx)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Button31)
         Me.Controls.Add(Me.Button32)
         Me.Controls.Add(Me.Button33)
         Me.Controls.Add(Me.Button34)
-        Me.Controls.Add(Me.Button35)
+        Me.Controls.Add(Me.exponent)
         Me.Controls.Add(Me.Button30)
         Me.Controls.Add(Me.Button29)
         Me.Controls.Add(Me.Button28)
@@ -537,7 +539,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Button21)
         Me.Controls.Add(Me.Button23)
         Me.Controls.Add(Me.Button19)
-        Me.Controls.Add(Me.Button20)
+        Me.Controls.Add(Me.AC)
         Me.Controls.Add(Me.Button18)
         Me.Controls.Add(Me.Button17)
         Me.Controls.Add(Me.Button10)
@@ -547,15 +549,15 @@ Partial Class Form1
         Me.Controls.Add(Me.Button16)
         Me.Controls.Add(Me.Button11)
         Me.Controls.Add(Me.Button12)
-        Me.Controls.Add(Me.Button7)
-        Me.Controls.Add(Me.Button8)
-        Me.Controls.Add(Me.Button9)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button6)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.Three)
+        Me.Controls.Add(Me.Two)
+        Me.Controls.Add(Me.One)
+        Me.Controls.Add(Me.Six)
+        Me.Controls.Add(Me.Five)
+        Me.Controls.Add(Me.Four)
+        Me.Controls.Add(Me.Nine)
+        Me.Controls.Add(Me.Eight)
+        Me.Controls.Add(Me.Seven)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.GroupBox2)
         Me.Name = "Form1"
@@ -565,15 +567,15 @@ Partial Class Form1
 
     End Sub
 
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button5 As Button
-    Friend WithEvents Button6 As Button
-    Friend WithEvents Button7 As Button
-    Friend WithEvents Button8 As Button
-    Friend WithEvents Button9 As Button
+    Friend WithEvents Seven As Button
+    Friend WithEvents Eight As Button
+    Friend WithEvents Nine As Button
+    Friend WithEvents Six As Button
+    Friend WithEvents Five As Button
+    Friend WithEvents Four As Button
+    Friend WithEvents Three As Button
+    Friend WithEvents Two As Button
+    Friend WithEvents One As Button
     Friend WithEvents Button11 As Button
     Friend WithEvents Button12 As Button
     Friend WithEvents Button16 As Button
@@ -584,7 +586,7 @@ Partial Class Form1
     Friend WithEvents Button17 As Button
     Friend WithEvents Button18 As Button
     Friend WithEvents Button19 As Button
-    Friend WithEvents Button20 As Button
+    Friend WithEvents AC As Button
     Friend WithEvents Button23 As Button
     Friend WithEvents Button21 As Button
     Friend WithEvents Button22 As Button
@@ -599,9 +601,9 @@ Partial Class Form1
     Friend WithEvents Button32 As Button
     Friend WithEvents Button33 As Button
     Friend WithEvents Button34 As Button
-    Friend WithEvents Button35 As Button
+    Friend WithEvents exponent As Button
     Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents Expression_txtbx As TextBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents GroupBox1 As GroupBox
